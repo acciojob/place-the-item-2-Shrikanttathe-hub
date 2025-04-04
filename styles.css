@@ -4,11 +4,11 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	flex-direction:row-reverse;
+	flex-wrap:wrap;
 }
 .holder .item{
-	width:200px;
-	height:200px;
+	width:100px;
+	height:100px;
 }
 .holder .item:nth-child(1){
 	background-color:red;
